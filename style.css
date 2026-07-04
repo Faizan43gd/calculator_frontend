@@ -1,0 +1,87 @@
+*{
+    background:linear-gradient(45deg , #0a0a0a , #3a4452);
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#outer_div{
+    height:430px;
+    width:280px;
+    margin-top: 70px;
+    margin-left: 530px;
+    border:2px solid white;
+    border-radius: 5px;
+    /* background:linear-gradient(45deg , #0a0a0a , #3a4452); */
+    background-color: transparent;
+    border:none;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+#divs{
+    height:100px;
+    width:100%;
+}
+input{
+    height:100%;
+    width:98%;
+    border:none;
+    text-align: right;
+    font-size: xx-large;
+    background-color: transparent;
+    /* color:whitesmoke; */
+       
+}
+input::placeholder{
+    color:whitesmoke;
+}
+
+button{
+    height:55px;
+    width:55px;
+    background: transparent;
+    font-size: 25px;
+    display:inline-block;
+    border:2px solid black;
+    /* padding:3px 15px 3px 15px; */
+    border-radius: 50%;
+    color:whitesmoke;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    
+
+}
+#nums{
+    background-color: transparent;
+    height:330px;
+    width:100%;
+    display: inline-blockd;
+    /* border:2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
+    justify-content:space-evenly;
+    align-content:space-evenly;
+  
+}
+
+
+.opr{
+    color:#6dee0a;
+}
+
+#dlte_sign{
+    font-size:19px;
+}
+
+.equelbtn{
+    background-color: #fb7c14;
+}
+
+button:active{
+    background: linear-gradient(45deg, #1a1a1a, #4a5565);
+    font-size:28px;
+    
+}
