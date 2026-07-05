@@ -6,12 +6,13 @@
 h1{
     text-align: center;
     color: white;
+    background: transparent;
 }
 
 #outer_div{
     height:500px;
     width:280px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 530px;
     border:2px solid white;
     border-radius: 20px;
