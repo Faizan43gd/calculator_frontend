@@ -1,6 +1,7 @@
 *{
     background:linear-gradient(45deg , #0a0a0a , #3a4452);
     box-sizing: border-box;
+
 }
 
 h1{
@@ -12,8 +13,9 @@ h1{
 #outer_div{
     height:500px;
     width:280px;
-    margin-top: 50px;
-    margin-left: 40%;
+    margin:0 auto;
+    /* margin-top: 50px; */
+    /* margin-left: 40%; */
     border:2px solid white;
     border-radius: 20px;
     /* background:linear-gradient(45deg , #0a0a0a , #3a4452); */
